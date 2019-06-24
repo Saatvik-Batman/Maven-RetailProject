@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testcases.ModifyTheDetailsRTTC_005">
+      <class name="com.testcases.medium.AllowsAdminToChangeOrderRTTC_046">
         <methods>
-          <include name="modifyDetails"/>
+          <include name="verifyUser"/>
         </methods>
-      </class> <!-- com.testcases.ModifyTheDetailsRTTC_005 -->
+      </class> <!-- com.testcases.medium.AllowsAdminToChangeOrderRTTC_046 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

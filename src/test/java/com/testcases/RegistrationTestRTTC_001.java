@@ -39,7 +39,7 @@ public class RegistrationTestRTTC_001 {
 		rp.dropCountry("Australia");
 		rp.dropRegionOrState("Karnataka");
 		rp.enterPassword("saatvik");
-		//rp.enterPassword2("saatvik");
+		rp.enterPassword2("saatvik");
 		rp.tickNewsLetter();
 		rp.privacePolicy();
 		rp.clickContinue();

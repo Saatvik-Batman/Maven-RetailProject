@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31645" started-at="2019-06-21T06:50:09Z" finished-at="2019-06-21T06:50:40Z">
+  <suite name="Default suite" duration-ms="26718" started-at="2019-06-24T04:19:41Z" finished-at="2019-06-24T04:20:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31645" started-at="2019-06-21T06:50:09Z" finished-at="2019-06-21T06:50:40Z">
-      <class name="com.testcases.ModifyTheDetailsRTTC_005">
-        <test-method status="PASS" signature="modifyDetails()[pri:0, instance:com.testcases.ModifyTheDetailsRTTC_005@28feb3fa]" name="modifyDetails" duration-ms="31629" started-at="2019-06-21T12:20:09Z" finished-at="2019-06-21T12:20:40Z">
+    <test name="Default test" duration-ms="26718" started-at="2019-06-24T04:19:41Z" finished-at="2019-06-24T04:20:08Z">
+      <class name="com.testcases.RegistrationTestRTTC_001">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.testcases.RegistrationTestRTTC_001@3ffc5af1]" name="createUser" duration-ms="26686" started-at="2019-06-24T09:49:41Z" finished-at="2019-06-24T09:50:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifyDetails -->
-      </class> <!-- com.testcases.ModifyTheDetailsRTTC_005 -->
+        </test-method> <!-- createUser -->
+      </class> <!-- com.testcases.RegistrationTestRTTC_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
