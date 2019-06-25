@@ -47,6 +47,7 @@ public class AllowAdminToFilterDetailsRTTC_047 {
 		at.clickFilter();
 		Thread.sleep(5000);
 		driver.quit();
+		driver.close();
 		
 	}	
 
