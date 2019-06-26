@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Saatvik Sharma'
+                     echo '1 TestCase building completed'
                  }
                  }
                  stage('Two') {
@@ -18,7 +18,7 @@ pipeline {
                        }
                  }
                  steps {
-                       echo "Hello"
+                       echo "Testcase Building in progress"
                  }
                  }
     
