@@ -41,13 +41,13 @@ public class AllowAdminToFilterDetailsRTTC_047 {
 		atc.clickOrder();
 		
 		AllowsAdminToFilterDetailsPOM at = new AllowsAdminToFilterDetailsPOM(driver, dropdown);
+		
 		at.dateaddedCalender();
 		driver.findElement(By.xpath("//td[text()='24']")).click();
 		Thread.sleep(5000);
 		at.clickFilter();
 		Thread.sleep(5000);
 		driver.quit();
-		driver.close();
 		
 	}	
 

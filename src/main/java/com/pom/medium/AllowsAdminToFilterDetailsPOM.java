@@ -30,9 +30,10 @@ public class AllowsAdminToFilterDetailsPOM {
 	{
 		driver.findElement(OrderID).sendKeys(String.valueOf(id));
 	}
-	public void clickFilter()
+	public void clickFilter() throws InterruptedException
 	{
 		driver.findElement(Filter).click();
+		driver.wait();
 	}
 	public void orderStatus(String value)
 	{
