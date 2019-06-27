@@ -7,5 +7,5 @@ public class TESTINGG {
 	
 	WebDriver driver;
 	
-	private By hen;
+	private By hen = driver.findElement(By.id(""));
 }
