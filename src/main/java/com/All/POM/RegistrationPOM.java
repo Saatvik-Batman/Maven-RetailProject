@@ -68,6 +68,7 @@ private	By Continue = By.xpath("//input[@class='btn btn-primary']");
 	public void postCode(int pcode)
 	{
 		driver.findElement(PostCode).clear();
+		driver.findElement(Address1);
 		driver.findElement(PostCode).sendKeys(String.valueOf(pcode));
 	}
 	public void dropCountry(String dcountry)
